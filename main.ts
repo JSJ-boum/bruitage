@@ -1,4 +1,4 @@
-input.onButtonPressed(Button.B, function () {
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     music.playMelody("D D F - D D F - ", 130)
     music.playMelody("D D F - D D F - ", 200)
     music.playMelody("D D F - D D F - ", 250)
