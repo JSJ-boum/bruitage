@@ -14,14 +14,14 @@ input.onLogoEvent(TouchButtonEvent.Touched, function () {
             . . # . .
             . . . . .
             `)
-        basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            `)
     }
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     music.playMelody("D D F - D D F - ", 130)
