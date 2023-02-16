@@ -1,5 +1,5 @@
 input.onLogoEvent(TouchButtonEvent.Touched, function () {
-    for (let index = 0; index < 20; index++) {
+    for (let index = 0; index < 22; index++) {
         basic.showLeds(`
             . # . # .
             # # # # #
