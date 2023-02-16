@@ -1,3 +1,28 @@
+input.onLogoEvent(TouchButtonEvent.Touched, function () {
+    for (let index = 0; index < 20; index++) {
+        basic.showLeds(`
+            . # . # .
+            # # # # #
+            # # # # #
+            . # # # .
+            . . # . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . # . # .
+            . # # # .
+            . . # . .
+            . . . . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+    }
+})
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     music.playMelody("D D F - D D F - ", 130)
     music.playMelody("D D F - D D F - ", 200)
